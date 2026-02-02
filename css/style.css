@@ -33,10 +33,6 @@
   opacity: 0;
 }
 
-.crshs_logo{
-background:   url("../assets/crshslogo.png") center / cover repeat;
-}
-
 
 body {
     height:  100%;
@@ -140,12 +136,40 @@ header {
 
 }
 
+a {
+    color: #d4eaff;
+}
+
+/* Visited link */
+a:visited {
+    color: #edbeff;
+}
+
+/* Hovered link */
+a:hover {
+    color: #ff9f9f;
+}
+
+/* When clicked (active) */
+a:active {
+    color: #88ffba;
+}
+
 .adjusted_to_left{
 	padding-left : 256px;
 }
 
-.transparent_video_background {
-    background: linear-gradient(#000d1d 0%, #00000000 20%, #000d1d73 40%, #000d1d 100%), url("../assets/bg_1.gif") center / cover repeat;
+.transparent_video_background_title {
+    background: linear-gradient(#000d1d 0%, #00000000 20%, #000d1d73 40%, #000d1d 100%), url("../assets/title.gif") center / cover repeat;
+}
+.transparent_video_background_typhoid {
+    background: linear-gradient(#000d1d 0%, #00000000 20%, #000d1d73 40%, #000d1d 100%), url("../assets/typhoid.gif") center / cover repeat;
+}
+.transparent_video_background_cholera {
+    background: linear-gradient(#000d1d 0%, #00000000 20%, #000d1d73 40%, #000d1d 100%), url("../assets/cholera.gif") center / cover repeat;
+}
+.transparent_video_background_aboutus {
+    background: linear-gradient(#000d1d 0%, #00000000 20%, #000d1d73 40%, #000d1d 100%), url("../assets/website.gif") center / cover repeat;
 }
 
 h2 {
