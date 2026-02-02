@@ -128,7 +128,7 @@ p {
 }
 
 header {
-	padding: 26rem 1rem;
+	padding: 16rem 1rem;
 	text-align: left;
   	color: #fffaf7;
     font-size : 64px;
@@ -170,6 +170,23 @@ a:active {
 }
 .transparent_video_background_aboutus {
     background: linear-gradient(#000d1d 0%, #00000000 20%, #000d1d73 40%, #000d1d 100%), url("../assets/website.gif") center / cover repeat;
+}
+
+.gay_gradient {
+	background: linear-gradient(
+  to right,
+  #e40303 0%,
+  #ff8c00 15%,
+  #ffed00 30%,
+  #008026 45%,
+  #004dff 60%,
+  #750787 100%
+);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  /* for Safari */
+  background-clip: text;
+  color: transparent;
+
 }
 
 h2 {
